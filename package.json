@@ -1,0 +1,33 @@
+{
+  "name": "simple-equal",
+  "version": "1.0.0",
+  "description": "data compare",
+  "main": "dist/index.js",
+  "scripts": {
+    "build":"rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evilgx/simple-equal.git"
+  },
+  "author": "evilgx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evilgx/simple-equal/issues"
+  },
+  "keywords": [
+    "simpleequal",
+    "equal",
+    "isequal",
+    "compare",
+    "isequalwith"
+  ],
+  "homepage": "https://github.com/evilgx/simple-equal#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "rollup": "^0.59.4",
+    "rollup-plugin-babel": "^3.0.4"
+  }
+}
